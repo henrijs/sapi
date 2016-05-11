@@ -22,3 +22,11 @@ function sapi_help($route_name, RouteMatchInterface $route_match) {
     default:
   }
 }
+
+/**
+ * Implements hook_page_attachments().
+ */
+function sapi_page_attachments(array &$page) {
+  $page['#attached']['library'][] = 'sapi/sapi.js-library';
+  $page['#attached']['library'][] = 'sapi/sapi.js-dummy-click';
+}

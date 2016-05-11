@@ -3,3 +3,8 @@ sapi.core:
     js/sapi.js: {}
   dependencies:
     - core/jquery
+sapi.js-dummy-click:
+  js:
+    js/sapi.dummy-click.js: {}
+  dependencies:
+    - sapi/sapi.core
