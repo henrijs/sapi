@@ -22,3 +22,21 @@ function sapi_help($route_name, RouteMatchInterface $route_match) {
     default:
   }
 }
+
+/**
+ * Implements hook_theme().
+ */
+function sapi_theme() {
+  $theme = [];
+  $theme['sapi_storage'] = [
+    'render element' => 'elements',
+    'file' => 'sapi_storage.page.inc',
+    'template' => 'sapi_storage',
+  ];
+  $theme['sapi_storage_content_add_list'] = [
+    'render element' => 'content',
+    'variables' => ['content' => NULL],
+    'file' => 'sapi_storage.page.inc',
+  ];
+  return $theme;
+}

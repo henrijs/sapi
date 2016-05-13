@@ -1,2 +1,21 @@
 sapi capture js actions:
   title: 'Capture JS actions'
+add statistic entities:
+  title: 'Create new Statistic entities'
+
+administer statistic entities:
+  title: 'Administer Statistic entities'
+  description: 'Allow to access the administration form to configure Statistic entities.'
+  restrict access: true
+
+delete statistic entities:
+  title: 'Delete Statistic entities'
+
+edit statistic entities:
+  title: 'Edit Statistic entities'
+
+view published statistic entities:
+  title: 'View published Statistic entities'
+
+view unpublished statistic entities:
+  title: 'View unpublished Statistic entities'

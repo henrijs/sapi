@@ -5,3 +5,19 @@ sapi.statistics_plugin_list_form:
   parent: system.admin_config_system
   weight: 99
 
+# Statistic menu items definition
+entity.sapi_storage.collection:
+  title: 'Statistic list'
+  route_name: entity.sapi_storage.collection
+  description: 'List Statistic entities'
+  parent: system.admin_structure
+  weight: 100
+
+# Statistic type menu items definition
+entity.sapi_storage_type.collection:
+  title: 'Statistic type'
+  route_name: entity.sapi_storage_type.collection
+  description: 'List Statistic type (bundles)'
+  parent: system.admin_structure
+  weight: 99
+

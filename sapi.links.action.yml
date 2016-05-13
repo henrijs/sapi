@@ -1,0 +1,11 @@
+entity.sapi_storage.add_form:
+  route_name: 'sapi_storage.add_page'
+  title: 'Add Statistic'
+  appears_on:
+    - entity.sapi_storage.collection
+entity.sapi_storage_type.add_form:
+  route_name: 'entity.sapi_storage_type.add_form'
+  title: 'Add Statistic type'
+  appears_on:
+    - entity.sapi_storage_type.collection
+
